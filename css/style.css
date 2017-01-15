@@ -1,0 +1,126 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background: #f9f9f9;
+}
+
+.jumbotron {
+background-image: url("http://i.imgur.com/5PDjkI8.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+  height: 85vh;
+  color: white;
+  }
+
+.welcome-message {
+  text-align: right;
+  margin: 15vh 10px 0 0;
+  cursor: default;
+  color: white;
+  font-weight: 900;
+  font-size: 3em;
+}
+
+@media (min-width:992px) {
+  .welcome-message {
+    font-size: 100px !important;
+  }
+}
+
+#my-name {
+	background-color: #333;
+	padding: 0 5px;
+}
+
+.page-title {
+  font-weight: 900;
+  text-align: center;
+}
+
+.project-tile {
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 0 0 14px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.project-tile img {
+  transition: 0.5s;
+  border-radius: 6px;
+}
+
+.project-tile img:hover{
+  opacity: .8;
+  transition: 0.5s;
+}
+
+.description {
+  max-width: 500px;
+  margin: 10px auto 0 auto;
+  padding: 0 4px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+#profile-pic {
+  margin-bottom: 20px;
+}
+
+.about-me {
+  text-align: center;
+  max-width: 700px;
+  margin: 4px auto 0 auto;
+  padding: 0 4px;
+}
+
+.about-me p {
+  font-size: 18px;
+}
+
+.contact {
+  background-image: url("http://i.imgur.com/YitS92x.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  border-radius: 7px;
+}
+
+.contact img{
+  transition: 0.5s;
+  padding: 4px;
+}
+
+.contact img:hover{
+  opacity: .8;
+  transition: 0.5s;
+}
+
+.icons {
+  padding-top: 40px;
+}
+
+@media (min-width:992px) {
+  .icons {
+    padding-top: 300px;
+  }
+  .contact {
+    height: 800px;
+  }
+}

@@ -1,0 +1,44 @@
+[
+	{
+		"title": "BuckeyeMatch",
+		"description": "Buckeye Match was a web app I built in a group, made to help Ohio State students meet new roommates. It employs visually intriguing graphics designed by me as well as filtering and direct message functionality.",
+		"image": "http://i.imgur.com/GnMO0am.jpg",
+		"link": "https://buckeyematch.herokuapp.com/"
+	},
+	{
+		"title": "CORE Interpreter",
+		"description": "An interpreter for a language called CORE. Written in Java using recursive descent parsing.",
+		"image": "http://i.imgur.com/oNVAgkS.png",
+		"link": "https://github.com/mattcramblett/core-interpreter"
+	},
+	{
+		"title": "Intersection AI Simulation",
+		"description": "Simulation of an intersection written in C# using Unity (done with a partner). Implements various alorgithms and techniques from my game and animation course.",
+		"image": "http://i.imgur.com/0ea3kWA.gif",
+		"link": "https://github.com/mattcramblett/intersection-ai-simulation"
+	},
+	{
+		"title": "North Meadows",
+		"description": "This web app and graphic design was a solo project of mine. North Meadows Townhomes is a housing community in central Ohio.",
+		"image": "http://i.imgur.com/fs1IsUL.jpg",
+		"link": "http://northmeadowstownhomes.com/"
+	},
+	{
+		"title": "Calculator",
+		"description": "NOTE: Must be used in FireFox only. A binary/hex/decimal calculator I made with a team. It's implemented with raw CSS/SCSS and vanilla JavaScript. ERB/Middleman was our build tool for static sites.",
+		"image": "http://i.imgur.com/Jl9qKr6.jpg",
+		"link": "https://morning-beach-71076.herokuapp.com/"
+	},
+	{
+		"title": "Bass Music",
+		"description": "Bass Music was a demo I built to further my experience with web apps. It is a music catalog (although no actual audio is hosted).",
+		"image": "http://i.imgur.com/Rpmhecq.jpg",
+		"link": "https://bass-music-rails.herokuapp.com/albums"
+	},
+	{
+		"title": "BL Parser",
+		"description": "A recursive descent parser for a made-up language called BL. It uses Ohio State's Java components and data structures for implementation.",
+		"image": "http://i.imgur.com/1VkvJd7.jpg",
+		"link": "https://github.com/mattcramblett/BL-parser"
+	}
+]

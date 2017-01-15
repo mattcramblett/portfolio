@@ -1,0 +1,9 @@
+<div ng-repeat="project in projects">
+	<div class="project-tile row">
+		<h3>{{ project.title }}</h3>
+		<a href="{{ project.link }}"><img ng-src="{{ project.image }}" style="width: 70%" alt="{{ project.title }}"/></a>
+		<div class="description">
+			<p>{{ project.description }}</p>
+		</div>
+	</div>
+</div>
