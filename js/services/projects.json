@@ -6,6 +6,12 @@
 		"link": "https://buckeyematch.herokuapp.com/"
 	},
 	{
+		"title": "Ardina - Healthcare App",
+		"description": "MyArdina is an Android app being built by my team for my software capstone class at Ohio State. It connects doctors with patients over a video call along with various other features.",
+		"image": "http://i.imgur.com/i2H2Lbm.jpg",
+		"link": "https://github.com/Machine-X-/Ardina"
+	},
+	{
 		"title": "CORE Interpreter",
 		"description": "An interpreter for a language called CORE. Written in Java using recursive descent parsing.",
 		"image": "http://i.imgur.com/oNVAgkS.png",
@@ -20,7 +26,7 @@
 	{
 		"title": "North Meadows",
 		"description": "This web app and graphic design was a solo project of mine. North Meadows Townhomes is a housing community in central Ohio.",
-		"image": "http://i.imgur.com/fs1IsUL.jpg",
+		"image": "http://i.imgur.com/qY6H7jI.jpg",
 		"link": "http://northmeadowstownhomes.com/"
 	},
 	{
