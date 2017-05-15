@@ -1,40 +1,53 @@
+/* http://www.colourlovers.com/palette/3697068/Lenopards_wild 
+pink: #C23355
+white: #FFFFFF;
+off-white: #EDEDED;
+blue: #02779E;
+green: #33B67C;
+*/
+
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
   font-family: 'Roboto', sans-serif;
-  background: #f9f9f9;
+  background: #EDEDED;
+}
+
+.navbar {
+  margin-bottom: 0;
 }
 
 .jumbotron {
-background-image: url("http://i.imgur.com/5PDjkI8.jpg");
+/* background-image: url("http://i.imgur.com/5PDjkI8.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size:cover;
-  height: 85vh;
-  color: white;
+  background-size:cover; */
+  background-color: #02779E;
+  height: 100vh;
+  color: #EDEDED;
   }
 
 .welcome-message {
-  text-align: right;
+  text-align: left;
   margin: 15vh 10px 0 0;
   cursor: default;
-  color: white;
+  color: #EDEDED;
   font-weight: 900;
-  font-size: 3em;
+  font-size: 20vw;
 }
 
 @media (min-width:992px) {
   .welcome-message {
-    font-size: 100px !important;
+    font-size: 10vw !important;
   }
 }
 
 #my-name {
 	background-color: #333;
-	padding: 0 5px;
+	padding: 0 7px;
 }
 
 .page-title {
@@ -93,17 +106,20 @@ background-image: url("http://i.imgur.com/5PDjkI8.jpg");
 }
 
 .contact {
-  background-image: url("http://i.imgur.com/YitS92x.jpg");
+  /* background-image: url("http://i.imgur.com/YitS92x.jpg"); */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 600px;
+  background-color: #C23355;
+  height: 100%;
+  margin: 0;
 }
 
 .contact img{
   transition: 0.5s;
   padding: 4px;
+  margin-bottom: 20px;
 }
 
 .contact img:hover{
