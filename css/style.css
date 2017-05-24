@@ -20,15 +20,11 @@ html, body {
 }
 
 .jumbotron {
-/* background-image: url("http://i.imgur.com/5PDjkI8.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size:cover; */
   background-color: #02779E;
   height: 100vh;
   color: #EDEDED;
-  }
+  margin-bottom: 0;
+}
 
 .welcome-message {
   text-align: left;
@@ -83,6 +79,7 @@ html, body {
 .row-centered {
     text-align:center;
 }
+
 .col-centered {
     display:inline-block;
     float:none;
@@ -91,14 +88,17 @@ html, body {
 }
 
 #profile-pic {
-  margin-bottom: 20px;
+  margin: 40px 0 20px 0;
 }
 
 .about-me {
   text-align: center;
   max-width: 700px;
-  margin: 4px auto 0 auto;
+  margin: 10px auto 0 auto;
   padding: 0 4px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .about-me p {
@@ -106,23 +106,16 @@ html, body {
 }
 
 .contact {
-  /* background-image: url("http://i.imgur.com/YitS92x.jpg"); */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   background-color: #C23355;
-  height: 100%;
-  margin: 0;
 }
 
-.contact img{
+.contact img {
   transition: 0.5s;
   padding: 4px;
   margin-bottom: 20px;
 }
 
-.contact img:hover{
+.contact img:hover {
   opacity: .8;
   transition: 0.5s;
 }
